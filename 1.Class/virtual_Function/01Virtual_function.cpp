@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string.h>
+#include <cstring>
 
 using namespace std;
 
@@ -28,6 +29,7 @@ int main()
 	poly->show_message();
 	poly->show_reverse();
 		
+	cout << "this is the abstract class" << endl;
 	return 0;
 }
 
