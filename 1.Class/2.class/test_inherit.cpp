@@ -53,6 +53,9 @@ int main()
 	cout << "----Separator----" << endl;
 	//BaseClass baseObject;
 	DerivedClass q;
+    BaseClass& test1 = q;
+
+    cout << "----------" << endl;
 	BaseClass *test = new DerivedClass();
 	//BaseClass *test = &q;
 	test->test();
